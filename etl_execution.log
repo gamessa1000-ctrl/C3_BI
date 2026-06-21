@@ -1,0 +1,97 @@
+2026-06-21 03:02:55,064 - INFO - === INICIANDO PIPELINE DE ETL (VETORIZADO) ===
+2026-06-21 03:02:55,113 - INFO - Inicializando estrutura física do Data Warehouse no DuckDB...
+2026-06-21 03:02:55,119 - INFO - Inserindo registros padrão de integridade (-1: Não Informado)...
+2026-06-21 03:02:55,134 - INFO - Populando dim_tempo dinamicamente de 2020-01-01 a 2026-12-31...
+2026-06-21 03:02:55,141 - INFO - dim_tempo populada com sucesso.
+2026-06-21 03:02:55,141 - INFO - Carregando mapeamentos existentes do banco para memória...
+2026-06-21 03:02:55,149 - INFO - Limpando dados históricos da FATO para carga completa...
+2026-06-21 03:02:55,150 - INFO - Leitura em lotes de MICRODADOS.csv (chunksize=500000)
+2026-06-21 03:02:58,096 - INFO - Processando Lote #1 contendo 500000 linhas...
+2026-06-21 03:03:14,954 - INFO - Lote #1 concluído. Tempo: 16.86 segundos. Acumulado: 500000 registros.
+2026-06-21 03:03:18,173 - INFO - Processando Lote #2 contendo 500000 linhas...
+2026-06-21 03:03:32,884 - INFO - Lote #2 concluído. Tempo: 14.71 segundos. Acumulado: 1000000 registros.
+2026-06-21 03:03:36,086 - INFO - Processando Lote #3 contendo 500000 linhas...
+2026-06-21 03:03:50,810 - INFO - Lote #3 concluído. Tempo: 14.72 segundos. Acumulado: 1500000 registros.
+2026-06-21 03:03:54,227 - INFO - Processando Lote #4 contendo 500000 linhas...
+2026-06-21 03:04:09,191 - INFO - Lote #4 concluído. Tempo: 14.96 segundos. Acumulado: 2000000 registros.
+2026-06-21 03:04:12,233 - INFO - Processando Lote #5 contendo 500000 linhas...
+2026-06-21 03:04:27,462 - INFO - Lote #5 concluído. Tempo: 15.23 segundos. Acumulado: 2500000 registros.
+2026-06-21 03:04:30,556 - INFO - Processando Lote #6 contendo 500000 linhas...
+2026-06-21 03:04:46,356 - INFO - Lote #6 concluído. Tempo: 15.80 segundos. Acumulado: 3000000 registros.
+2026-06-21 03:04:49,754 - INFO - Processando Lote #7 contendo 500000 linhas...
+2026-06-21 03:05:05,119 - INFO - Lote #7 concluído. Tempo: 15.37 segundos. Acumulado: 3500000 registros.
+2026-06-21 03:05:08,329 - INFO - Processando Lote #8 contendo 500000 linhas...
+2026-06-21 03:05:23,803 - INFO - Lote #8 concluído. Tempo: 15.47 segundos. Acumulado: 4000000 registros.
+2026-06-21 03:05:26,674 - INFO - Processando Lote #9 contendo 500000 linhas...
+2026-06-21 03:05:28,915 - INFO - SCD Tipo 2: Localidade ANCHIETA-JUSTIÇA II reclassificada. Antiga SK: 115, Nova SK: 7454
+2026-06-21 03:05:28,917 - INFO - SCD Tipo 2: Localidade ANCHIETA-IRIRI reclassificada. Antiga SK: 656, Nova SK: 7455
+2026-06-21 03:05:28,918 - INFO - SCD Tipo 2: Localidade ANCHIETA-ALVORADA reclassificada. Antiga SK: 145, Nova SK: 7456
+2026-06-21 03:05:28,920 - INFO - SCD Tipo 2: Localidade ANCHIETA-MÃE-BÁ reclassificada. Antiga SK: 807, Nova SK: 7457
+2026-06-21 03:05:28,921 - INFO - SCD Tipo 2: Localidade ANCHIETA-NOVA ESPERANÇA reclassificada. Antiga SK: 903, Nova SK: 7458
+2026-06-21 03:05:28,923 - INFO - SCD Tipo 2: Localidade ANCHIETA-CENTRO reclassificada. Antiga SK: 121, Nova SK: 7459
+2026-06-21 03:05:28,924 - INFO - SCD Tipo 2: Localidade ANCHIETA-PONTA DOS CASTELHANOS reclassificada. Antiga SK: 505, Nova SK: 7460
+2026-06-21 03:05:28,926 - INFO - SCD Tipo 2: Localidade ANCHIETA-PORTO DE CIMA reclassificada. Antiga SK: 1843, Nova SK: 7461
+2026-06-21 03:05:28,927 - INFO - SCD Tipo 2: Localidade ANCHIETA-GOEMBÊ reclassificada. Antiga SK: 0, Nova SK: 7462
+2026-06-21 03:05:28,929 - INFO - SCD Tipo 2: Localidade ANCHIETA-PORTAL DE ANCHIETA reclassificada. Antiga SK: 42, Nova SK: 7464
+2026-06-21 03:05:28,931 - INFO - SCD Tipo 2: Localidade ANCHIETA-ALTO PONGAL reclassificada. Antiga SK: 974, Nova SK: 7465
+2026-06-21 03:05:28,933 - INFO - SCD Tipo 2: Localidade ANCHIETA-JUSTIÇA I reclassificada. Antiga SK: 151, Nova SK: 7467
+2026-06-21 03:05:28,935 - INFO - SCD Tipo 2: Localidade ANCHIETA-JOÃO XXIII reclassificada. Antiga SK: 1154, Nova SK: 7468
+2026-06-21 03:05:28,936 - INFO - SCD Tipo 2: Localidade ANCHIETA-JABAQUARA reclassificada. Antiga SK: 893, Nova SK: 7469
+2026-06-21 03:05:28,938 - INFO - SCD Tipo 2: Localidade ANCHIETA-GUANABARA reclassificada. Antiga SK: 156, Nova SK: 7470
+2026-06-21 03:05:28,939 - INFO - SCD Tipo 2: Localidade ANCHIETA-PRAIA DOS CASTELHANOS reclassificada. Antiga SK: 1199, Nova SK: 7471
+2026-06-21 03:05:28,941 - INFO - SCD Tipo 2: Localidade ANCHIETA-VILA SAMARCO reclassificada. Antiga SK: 1238, Nova SK: 7472
+2026-06-21 03:05:28,942 - INFO - SCD Tipo 2: Localidade ANCHIETA-QUITIBA reclassificada. Antiga SK: 1579, Nova SK: 7473
+2026-06-21 03:05:28,944 - INFO - SCD Tipo 2: Localidade ANCHIETA-BENEVENTE reclassificada. Antiga SK: 117, Nova SK: 7475
+2026-06-21 03:05:28,946 - INFO - SCD Tipo 2: Localidade ANCHIETA-BELO HORIZONTE reclassificada. Antiga SK: 1885, Nova SK: 7476
+2026-06-21 03:05:28,948 - INFO - SCD Tipo 2: Localidade ANCHIETA-NOVO HORIZONTE reclassificada. Antiga SK: 286, Nova SK: 7477
+2026-06-21 03:05:28,950 - INFO - SCD Tipo 2: Localidade ANCHIETA-DUAS BARRAS reclassificada. Antiga SK: 1208, Nova SK: 7478
+2026-06-21 03:05:28,951 - INFO - SCD Tipo 2: Localidade ANCHIETA-CHAPADA DO A reclassificada. Antiga SK: 916, Nova SK: 7479
+2026-06-21 03:05:28,953 - INFO - SCD Tipo 2: Localidade ANCHIETA-NOVA JERUSALÉM reclassificada. Antiga SK: 161, Nova SK: 7480
+2026-06-21 03:05:28,955 - INFO - SCD Tipo 2: Localidade ANCHIETA-OLIVÂNIA reclassificada. Antiga SK: 1195, Nova SK: 7481
+2026-06-21 03:05:28,956 - INFO - SCD Tipo 2: Localidade ANCHIETA-UBU reclassificada. Antiga SK: 1169, Nova SK: 7482
+2026-06-21 03:05:28,958 - INFO - SCD Tipo 2: Localidade ANCHIETA-BAIXO PONGAL reclassificada. Antiga SK: 1520, Nova SK: 7483
+2026-06-21 03:05:28,959 - INFO - SCD Tipo 2: Localidade ANCHIETA-OLIVEIRA reclassificada. Antiga SK: 2720, Nova SK: 7484
+2026-06-21 03:05:28,961 - INFO - SCD Tipo 2: Localidade ANCHIETA-LIMEIRA OU SARAMPO reclassificada. Antiga SK: 814, Nova SK: 7485
+2026-06-21 03:05:28,963 - INFO - SCD Tipo 2: Localidade ANCHIETA-ITAPEÚNA reclassificada. Antiga SK: 631, Nova SK: 7486
+2026-06-21 03:05:28,965 - INFO - SCD Tipo 2: Localidade ANCHIETA-SERRA DAS GRAÇAS reclassificada. Antiga SK: 2445, Nova SK: 7489
+2026-06-21 03:05:28,967 - INFO - SCD Tipo 2: Localidade ANCHIETA-SANTA LUZIA DE MONTEIRO reclassificada. Antiga SK: 1576, Nova SK: 7490
+2026-06-21 03:05:28,969 - INFO - SCD Tipo 2: Localidade ANCHIETA-SEGUNDO TERRITÓRIO reclassificada. Antiga SK: 2267, Nova SK: 7493
+2026-06-21 03:05:28,974 - INFO - SCD Tipo 2: Localidade ANCHIETA-RECANTO DO SOL reclassificada. Antiga SK: 885, Nova SK: 7499
+2026-06-21 03:05:28,976 - INFO - SCD Tipo 2: Localidade ANCHIETA-CANTAGALO reclassificada. Antiga SK: 1085, Nova SK: 7501
+2026-06-21 03:05:28,980 - INFO - SCD Tipo 2: Localidade ANCHIETA-NÃO ENCONTRADO reclassificada. Antiga SK: 11, Nova SK: 7504
+2026-06-21 03:05:28,982 - INFO - SCD Tipo 2: Localidade ANCHIETA-ALTO JOEBA reclassificada. Antiga SK: 627, Nova SK: 7506
+2026-06-21 03:05:28,985 - INFO - SCD Tipo 2: Localidade ANCHIETA-EMBOACICA OU SACI reclassificada. Antiga SK: 1700, Nova SK: 7510
+2026-06-21 03:05:28,988 - INFO - SCD Tipo 2: Localidade ANCHIETA-PARATI reclassificada. Antiga SK: 98, Nova SK: 7512
+2026-06-21 03:05:28,991 - INFO - SCD Tipo 2: Localidade ANCHIETA-INHAÚMA reclassificada. Antiga SK: 403, Nova SK: 7514
+2026-06-21 03:05:28,995 - INFO - SCD Tipo 2: Localidade ANCHIETA-SUBÁIA reclassificada. Antiga SK: 1099, Nova SK: 7518
+2026-06-21 03:05:28,997 - INFO - SCD Tipo 2: Localidade ANCHIETA-SÃO VICENTE reclassificada. Antiga SK: 1613, Nova SK: 7519
+2026-06-21 03:05:28,999 - INFO - SCD Tipo 2: Localidade ANCHIETA-PLANALTO ANCHIETA reclassificada. Antiga SK: 2360, Nova SK: 7520
+2026-06-21 03:05:29,001 - INFO - SCD Tipo 2: Localidade ANCHIETA-CÓRREGO DA PRATA reclassificada. Antiga SK: 1042, Nova SK: 7522
+2026-06-21 03:05:29,003 - INFO - SCD Tipo 2: Localidade ANCHIETA-PRAIA DO COQUEIRO reclassificada. Antiga SK: 1246, Nova SK: 7525
+2026-06-21 03:05:29,005 - INFO - SCD Tipo 2: Localidade ANCHIETA-JAQUEIRA reclassificada. Antiga SK: 779, Nova SK: 7526
+2026-06-21 03:05:29,015 - INFO - SCD Tipo 2: Localidade ANCHIETA-SÃO MATEUS reclassificada. Antiga SK: 1577, Nova SK: 7536
+2026-06-21 03:05:29,016 - INFO - SCD Tipo 2: Localidade ANCHIETA-JARDIM DAS OLIVEIRAS reclassificada. Antiga SK: 1583, Nova SK: 7537
+2026-06-21 03:05:29,019 - INFO - SCD Tipo 2: Localidade ANCHIETA-RESIDENCIAL MARTINS reclassificada. Antiga SK: 1919, Nova SK: 7539
+2026-06-21 03:05:29,020 - INFO - SCD Tipo 2: Localidade ANCHIETA-DOIS IRMÃOS - ALTO PONGAL reclassificada. Antiga SK: 2134, Nova SK: 7540
+2026-06-21 03:05:29,029 - INFO - SCD Tipo 2: Localidade ANCHIETA-DOIS IRMÃOS DO CORINDIBA - JABAQUARA reclassificada. Antiga SK: 1125, Nova SK: 7551
+2026-06-21 03:05:29,039 - INFO - SCD Tipo 2: Localidade ANCHIETA-SIMPATIA reclassificada. Antiga SK: 892, Nova SK: 7563
+2026-06-21 03:05:29,042 - INFO - SCD Tipo 2: Localidade ANCHIETA-NOVA ANCHIETA reclassificada. Antiga SK: 75, Nova SK: 7565
+2026-06-21 03:05:29,044 - INFO - SCD Tipo 2: Localidade ANCHIETA-BOA VISTA reclassificada. Antiga SK: 2561, Nova SK: 7566
+2026-06-21 03:05:29,049 - INFO - SCD Tipo 2: Localidade ANCHIETA-ARERÁ reclassificada. Antiga SK: 2075, Nova SK: 7570
+2026-06-21 03:05:42,858 - INFO - Lote #9 concluído. Tempo: 16.18 segundos. Acumulado: 4500000 registros.
+2026-06-21 03:05:45,676 - INFO - Processando Lote #10 contendo 500000 linhas...
+2026-06-21 03:05:47,676 - INFO - SCD Tipo 2: Localidade ANCHIETA-ANCHIETA reclassificada. Antiga SK: 1568, Nova SK: 7601
+2026-06-21 03:05:47,742 - INFO - SCD Tipo 2: Localidade ANCHIETA-PÉ DO MORRO reclassificada. Antiga SK: 1869, Nova SK: 7617
+2026-06-21 03:05:47,865 - INFO - SCD Tipo 2: Localidade ANCHIETA-DOM HELVÉCIO reclassificada. Antiga SK: 497, Nova SK: 7725
+2026-06-21 03:05:47,996 - INFO - SCD Tipo 2: Localidade ANCHIETA-ITAPEROROMA BAIXA reclassificada. Antiga SK: 1084, Nova SK: 7872
+2026-06-21 03:06:01,437 - INFO - Lote #10 concluído. Tempo: 15.76 segundos. Acumulado: 5000000 registros.
+2026-06-21 03:06:02,477 - INFO - Processando Lote #11 contendo 187769 linhas...
+2026-06-21 03:06:09,698 - INFO - Lote #11 concluído. Tempo: 7.22 segundos. Acumulado: 5187769 registros.
+2026-06-21 03:06:09,699 - INFO - === ETL CONCLUÍDO. EXECUTANDO AUDITORIA DE RECONCILIAÇÃO (Data Auditability 1:1) ===
+2026-06-21 03:06:09,704 - INFO - Sucesso: Volume Total de Registros reconciliado perfeitamente! (5187769)
+2026-06-21 03:06:09,704 - INFO - Sucesso: Total de Casos Confirmados reconciliado perfeitamente! (1398145)
+2026-06-21 03:06:09,704 - INFO - Sucesso: Total de Óbitos Covid reconciliado perfeitamente! (15286)
+2026-06-21 03:06:09,704 - INFO - Sucesso: Total de Casos Curados reconciliado perfeitamente! (1367503)
+2026-06-21 03:06:09,704 - INFO - RECONCILIAÇÃO VOLUMÉTRICA FINALIZADA COM SUCESSO - AUDITORIA 1:1 COMPACTA E VÁLIDA.
+2026-06-21 03:06:10,060 - INFO - Tempo total de execução do ETL: 195.00 segundos (3.25 minutos).
+2026-06-21 03:06:10,060 - INFO - === FIM DO PIPELINE ===
